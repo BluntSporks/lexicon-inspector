@@ -5,12 +5,6 @@ Golang program to print data about lexicons in the lexicon repository
 Ready to use
 
 ## Environment variables
-### LANGUTIL_DATA
-Set the LANGUTIL_DATA directory to the location of the data files for this project, for example:
-export LANGUTIL_DATA=~/go/src/github.com/BluntSporks/language-utilities/data
-
-You should have create, read, and append privileges to the files in the LANGUTIL_DATA directory.
-
 ### LEXICON_DATA
 Set the LEXICON_DATA directory to the location of the lexicon data files, for example:
 export LEXICON_DATA=~/go/src/github.com/BluntSporks/lexicon/data
