@@ -23,7 +23,7 @@ func main() {
 	wordList := lex.LoadLang(path)
 
 	// Determine mode of operation.
-	if *mode == "cntwords" {
+	if *mode == "cntstrs" {
 		// Print the substring counts.
 		strCnts := lex.CntSubstrs(wordList, *strlen)
 		pairs := mapsort.ByVal(strCnts, false)

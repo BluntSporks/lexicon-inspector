@@ -37,4 +37,4 @@ Options:
     lang=LANG                 Name of language file to inspect
     strlen=LEN                Number of runes to include in each substring
     lexdir=DIR                Location of lexicon data directory
-    mode=(cntchars|cntwords)  Mode of program execution [default: cntchars]
+    mode=(cntchars|cntstrs)   Mode of program execution [default: cntchars]
